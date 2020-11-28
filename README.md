@@ -5,7 +5,6 @@ A follow along tutorial to create a cocoa pod
 ## Steps
 
 - Setup GitHub Workflow
-
 - Run to create a pod spec file:
 
 ```bash
@@ -13,9 +12,16 @@ A follow along tutorial to create a cocoa pod
 ```
 
 - Edit podspec file
-
 - Run to check if there are not any errors in the pod spec file:
 
 ```bash
 > pod lib lint
+```
+
+- Create a new release on GitHub
+- Pull changes from GitHub
+- Run to publish release:
+
+```bash
+> pod trunk push
 ```
